@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gooseboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body
+    style="background-image: url('PNG/gooses.png');background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+    <div style="width: 100%;">
+        <button onclick="addOne()" id="addOne" style="height: fit-conten; width: fit-content;" hidden="true">Add
+            player</button>
+        <div id="spelers" style="margin-left: 10%;margin-right: 10%;">
+
+        </div>
+    </div>
+    <br>
+    <div style="padding-top: 100px;width: 100%;">
+        <p style="width: 100%;"> </p>
+    </div>
+    <div style="background-color: white; text-align: center;opacity: 0.8;" id="radioDIV">
+        <p>Wie doen er mee?</p>
+        <input type="radio" id="name1" value="Arjan"><label for="name1">Arjan</label><br>
+        <input type="radio" id="name2" value="Jelle"><label for="name2">Jelle</label><br>
+        <input type="radio" id="name3" value="Kay"><label for="name3">Kay</label><br>
+        <input type="radio" id="name4" value="Phil"><label for="name4">Phil</label><br>
+        <input type="radio" id="name5" value="Ruck"><label for="name5">Ruck</label><br>
+        <input type="radio" id="name6" value="Sjoerd"><label for="name6">Sjoerd</label><br>
+        <input type="radio" id="name7" value="Stan"><label for="name7">Stan</label><br>
+        <input type="radio" id="name8" value="Waylon"><label for="name8">Waylon</label><br><br>
+    </div>
+    <div style=" text-align: center;" id="startDIV">
+        <button onclick="start()" style="height: 100px; width: 40%;">START</button>
+    </div>
+    <div style=" text-align: center;" id="AddDIV" hidden="true">
+        <button onclick="add()" style="height: 100px; width: 40%;">ADD</button>
+    </div>
+    <div style=" text-align: center;" id="cancelAddDIV" hidden="true">
+        <button onclick="cancelAddOne()" style="height: 50px; width: 20%;">Cancel</button>
+    </div>
+
+    <div id="board" style="margin-left: 10%;margin-right: 10%;margin-top: 150px;" hidden="true">
+        <div id="boardplace0" class="start" style="border: 3px solid black;">0
+        </div>
+        <div id="boardplace29" class="boardplacestyle"
+            style="border-top: 3px solid black;border-left: 3px solid black;">29
+        </div>
+        <div id="boardplace28" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">28
+        </div>
+        <div id="boardplace27" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">27
+        </div>
+        <div id="boardplace26" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">26
+        </div>
+        <div id="boardplace25" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">25
+        </div>
+        <div id="boardplace24" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">24
+        </div>
+        <div id="boardplace23" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">23
+        </div>
+        <div id="boardplace22" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">22
+        </div>
+        <div id="boardplace21" class="boardplacestyle"
+            style="border-top: 3px solid black;border-right: 3px solid black;">21
+        </div>
+        <div id="boardplace1" class="boardplacestyle"
+            style="border-right: 3px solid black;border-left: 3px solid black;">1
+        </div>
+        <div id="boardplace30" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">30
+        </div>
+        <div id="boardplace51" class="boardplacestyle"
+            style="border-top: 3px solid black;border-left: 3px solid black;">51
+        </div>
+        <div id="boardplace50" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">50
+        </div>
+        <div id="boardplace49" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">49
+        </div>
+        <div id="boardplace48" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">48
+        </div>
+        <div id="boardplace47" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">47
+        </div>
+        <div id="boardplace46" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">46
+        </div>
+        <div id="boardplace45" class="boardplacestyle"
+            style="border-top: 3px solid black;border-right: 3px solid black;">45
+        </div>
+        <div id="boardplace20" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">20
+        </div>
+        <div id="boardplace2" class="boardplacestyle"
+            style="border-right: 3px solid black;border-left: 3px solid black;">2
+        </div>
+        <div id="boardplace31" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">31
+        </div>
+        <div id="boardplace52" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">52
+        </div>
+        <div id="boardplace65" class="boardplacestyle"
+            style="border-top: 3px solid black;border-left: 3px solid black;">65
+        </div>
+        <div id="boardplace64" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">64
+        </div>
+        <div id="boardplace63" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">63
+        </div>
+        <div id="boardplace62" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">62
+        </div>
+        <div id="boardplace61" class="boardplacestyle"
+            style="border-top: 3px solid black;border-right: 3px solid black;">61
+        </div>
+        <div id="boardplace44" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">44
+        </div>
+        <div id="boardplace19" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">19
+        </div>
+        <div id="boardplace3" class="boardplacestyle"
+            style="border-right: 3px solid black;border-left: 3px solid black;">3
+        </div>
+        <div id="boardplace32" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">32
+        </div>
+        <div id="boardplace53" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">53
+        </div>
+        <div id="boardplace66" class="boardplacestyle"
+            style="border-left: 3px solid black;border-bottom:3px solid black;">66
+        </div>
+        <div id="boardplace67" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">67
+        </div>
+        <div id="boardplace68" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">68
+        </div>
+        <div id="boardplace69" class="end">69
+        </div>
+        <div id="boardplace60" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">60
+        </div>
+        <div id="boardplace43" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">43
+        </div>
+        <div id="boardplace18" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">18
+        </div>
+        <div id="boardplace4" class="boardplacestyle"
+            style="border-right: 3px solid black;border-left: 3px solid black;">4
+        </div>
+        <div id="boardplace33" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">33
+        </div>
+        <div id="boardplace54" class="boardplacestyle"
+            style="border-left: 3px solid black;border-bottom:3px solid black;">54
+        </div>
+        <div id="boardplace55" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">55
+        </div>
+        <div id="boardplace56" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">56
+        </div>
+        <div id="boardplace57" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">57
+        </div>
+        <div id="boardplace58" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">58
+        </div>
+        <div id="boardplace59" class="boardplacestyle"
+            style="border-right: 3px solid black;border-bottom: 3px solid black;">59
+        </div>
+        <div id="boardplace42" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">42
+        </div>
+        <div id="boardplace17" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">17
+        </div>
+        <div id="boardplace5" class="boardplacestyle"
+            style="border-right: 3px solid black;border-left: 3px solid black;">5
+        </div>
+        <div id="boardplace34" class="boardplacestyle"
+            style="border-left: 3px solid black;border-bottom:3px solid black;">34
+        </div>
+        <div id="boardplace35" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">35
+        </div>
+        <div id="boardplace36" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">36
+        </div>
+        <div id="boardplace37" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">37
+        </div>
+        <div id="boardplace38" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">38
+        </div>
+        <div id="boardplace39" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">39
+        </div>
+        <div id="boardplace40" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 3px solid black;">40
+        </div>
+        <div id="boardplace41" class="boardplacestyle"
+            style="border-right: 3px solid black;border-bottom: 3px solid black;">41
+        </div>
+        <div id="boardplace16" class="boardplacestyle"
+            style="border-left: 3px solid black;border-right: 3px solid black;">16
+        </div>
+        <div id="boardplace6" class="boardplacestyle"
+            style="border-left: 3px solid black;border-bottom:3px solid black;">6
+        </div>
+        <div id="boardplace7" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 2x solid black;">7
+        </div>
+        <div id="boardplace8" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 2x solid black;">8
+        </div>
+        <div id="boardplace9" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom: 2x solid black;">9
+        </div>
+        <div id="boardplace10" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom:3px solid black;">10
+        </div>
+        <div id="boardplace11" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom:3px solid black;">11
+        </div>
+        <div id="boardplace12" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom:3px solid black;">12
+        </div>
+        <div id="boardplace13" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom:3px solid black;">13
+        </div>
+        <div id="boardplace14" class="boardplacestyle"
+            style="border-top: 3px solid black;border-bottom:3px solid black;">14
+        </div>
+        <div id="boardplace15" class="boardplacestyle"
+            style="border-right: 3px solid black;border-bottom: 3px solid black;">15
+        </div>
+    </div>
+    <button onclick="next()" id="next" style="height: 100px; width: 10%; margin-left: 10px" hidden="true">Next</button>
+    <button onclick="roll()" id="roll" style="height: 100px; width: 10%; margin-left: 10px;float: right;"
+        hidden="true">roll</button>
+    <div style="text-align: center;color: gold;background-color: black; ">
+        <h1 id="h2Regels"></h1>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>

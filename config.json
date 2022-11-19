@@ -1,0 +1,8 @@
+{
+    "Express" : {
+        "port" : 7777
+    },
+    "webSocket" : {
+        "port": 6969
+    }
+}

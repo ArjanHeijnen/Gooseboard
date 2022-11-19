@@ -1,0 +1,341 @@
+{
+    "specials": [
+        "Nothing",
+        "Skip 1 turn",
+        "Switch with player left",
+        "Switch with player right",
+        "Give turn to Sjoerd",
+        "Volgende gooi dubbel",
+        "Waylon of Arjan de beurt, skip",
+        "Waylon 1 naar voren",
+        "Snake eys (4 rond)",
+        "player en Flip skip beurt"
+    ],
+    "ruleslist": [
+        {
+            "regel": "Je bent nu een simp. Wanneer degene rechts van je drinkt, drink jij ook.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Niet bellen! Hij is op vingerdate! Neem 3 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "DJ maister, zet een nummer op wat Kay mooi vindt, vindt hij die niet mooi? Kay atje.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Er moet meer gezopen worden! iedereen 7 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "We buizen bij stan vnv. Niemand komt opdagen, Stan drinkt 5 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je komt erachter dat de gemiddelde penis lengte 14-16 mm is en wordt hyped omdat je boven gemiddeld bent. Neem 5 slokken om je grote piemol te laten zien.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Doe een potje mexico met zn allen terwijl [Mexico van Zangeres Zonder Naam] of [Mexico van Stampvast]  op staat.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "De tafel moet rond gebuisd worden! Haal drinken voor iedereen. Als er al gehaald is, neem een atje en haal 1 nieuwe voor je zelf.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Speel 1 ronde hartje atje met zn allen. Gewoon.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Big pp of smol pp: 10 slokken of 1 slok.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Heb je een kleinere leuter dan die van Blessing? Neem 2 slokken of een atje.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je zit onder de duim en krijgt een kale plek op je hoofd. deel 3 slokken uit als je geen relatie hebt, anders neem ze. Jelle doet mee en neemt dubbel.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Stan is dik en wil een koekje, geef hem een koekje of neem 5 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je eet wat olympische ringen en staat KEI strak, je volende gooi telt dubbel.",
+            "stappen": 0,
+            "special": 5
+        },
+        {
+            "regel": "Er is een nieuwe Jonkeau groep. Kies 2 mensen, jullie 3 drinken altijd samen. (3 beurten)",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Zet [Erik van Klinken, Onderweg naar jou] op en neem een slok voor elke keer dat er onderweg gezegd wordt.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "BRANDN EN RELN, iedereen doet 3 slokken omdat het verskrikkelijk is.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Net als Flip kom je je huis niet meer in, neem 3 slokken om warm te blijven. Of neem een atje en sla het raam in.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "DISCO! Iedereen neemt de plaats van degene rechts van hem over.",
+            "stappen": 0,
+            "special": 3
+        },
+        {
+            "regel": "Battleshots! Doe steen-papier-schaar tegen degene tegenover je, verliezer neemt een shot Sambucaaaa.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Heb je dit jaar gekotst? nee? dan wordt het vnv de tijd. neem 10 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je stopt om naar waylons reet te kijken, skip 1 beurt.",
+            "stappen": 0,
+            "special": 1
+        },
+        {
+            "regel": "Je bent Nikki, degene die je gepijpt hebt is in slaap gevallen, dus je ruimt alles op. Ruim alle flessen op, is alles opgeruimd? Haal drinken voor iedereen.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Blessing doorboort je poepgaatje, neem huilend 5 slokken om het te verdoven.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Het is evig tropisch weer. Als nu GEEN tropisch overhemd aan hebt neem 5 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Ridder! De volgende keer dat je MOET drinken is het dubbel, ben je Tom? Dan gaat dit x4.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Schreeuw JE MOET GWN NORMAAL DOEN! En deel 3 slokken uit.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Loempia mee. Deel (loempia) 2 slokken uit.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je loopt raar en neemt 5 slokken. Ben je Sjoerd niet dan krijgt hij hierna de beurt.",
+            "stappen": 0,
+            "special": 4
+        },
+        {
+            "regel": "Er loopt een minderjarige langs. Ben je Arjan of Waylon dan skip je een beurt. Anders is er niks aan de hand.",
+            "stappen": 0,
+            "special": 6
+        },
+        {
+            "regel": "Mexican party! TEQUILLLAAAA voor jou met [Tequila van The Champs] op.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Flip vergelijkt alle reten. Degene met de beste reet gaat vooruit. Oftewel Waylon gaat 1 vakje naar voren.",
+            "stappen": 0,
+            "special": 7
+        },
+        {
+            "regel": "KARAOKE avond! Zing een liedje! Is Sjoerd er? Dan zingt hij mee.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je doet een atje. DIT MOET.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Laat je met je flexibele ruggengraat overtuigen over hoeveel slokken je gaat nemen.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je bent onmogelijk stief. Roep IK BEN STIEF en neem 2 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je bent moker brak, neem niks aantal slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Buurtfeest gaat door, iedereen neemt 2 slokken. Behalve Flip want die slaapt.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "KALI KALI! Ga KALI ANALI of neem 5 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "RETARD ALERT! Wijs met zn allen naar de domste persoon, Stan doet ook 5 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Er moet masaal gedeeld worden! Geef 3 mensen 3 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Wees blij dat je zo ver gekomen bent. Deel 5 slokken uit.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je hebt je pups en crunches verzaakt. Doe alvast 10/10 om weer bij te komen.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Zet [765348] op, tel de getallen op en neem zo veel slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je hebt corona en haalt 3 kratten. De rest neemt 3 slokken. ",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "HUUUGOOO ATJEEE! Wil je niet? Dan doet waylon hem. Wil hij deze ook niet? Dan krijgt Waylon een anytimer.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "INFERIEUR! Iedereen zonder iets van SONY bij zich neemt 3 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je bent evig art genaaid met bussen. Doe een bus met 5 kaarten.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Ben je nog een blij vandaag? Jeweh = 5 slokken uitdelen, ne = zelf 5 slokken nemen.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je begint met je 69 uur slaap. Skip een beurt.",
+            "stappen": 0,
+            "special": 1
+        },
+        {
+            "regel": "Atje.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Er is een evig goeie. meme gemaakt, neem 4 slokken omdat je het GEWELDIG vindt.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "MASSAAL DELEN, stuur de eerste chinees die je tegenkomt op snap een snap of neem 7 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je doet een post op insta maar niemand vind hem leuk. Neem 7 slokken of verwijder een post.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "FULL HOUSE! Je hebt een trippple en een pair. Deel 5 slokken uit.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "BUISTASTISCH! Neem een slok voor elk glas dat je leeg gedronken hebt.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je zit maximaal te chillen op de bank en kakt in je broek. Neem 3 slokken omdat je het lekker vindt.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "SNAKE EYES! Degene die je aankijkt moet een slok. (4 rondes of tot de volgende hierop komt).",
+            "stappen": 0,
+            "special": 8
+        },
+        {
+            "regel": "Is het kikker of kinker? Neem een slonkie.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "We gaan Picolo spelen en iedereen negeert Kay. Kay drinkt 2 slokken.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je bent brak dus je skipt een beurt. flip doet mee.",
+            "stappen": 0,
+            "special": 9
+        },
+        {
+            "regel": "Speel een potje Opus met zn allen. Verliezer(s) neemt een atje.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Shag van Gelder Dames en Heren! Er zijn vanavond GRIMMIGE sferen. Drink je glas leeg, omdat het nooit genoeg is.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "One egg! Kies je buisbuddy voor de volgende 2 beurten of voor het hele spel.",
+            "stappen": 0,
+            "special": 0
+        },
+        {
+            "regel": "Je haat buizen. Je mag tot de volgende keer dat je MOET drinken niet aan je glas zitten, doe je dit wel? atje.",
+            "stappen": 0,
+            "special": 0
+        }
+    ]
+}
